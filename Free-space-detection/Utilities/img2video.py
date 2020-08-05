@@ -13,7 +13,7 @@ sampleimg = cv2.imread(path + "/"+ listofimg[0])
 width,height,channel = sampleimg.shape
 size = (height,width)
 print(width,height,channel)
-out = cv2.VideoWriter("/Users/nebel/Desktop/out_evening.avi",cv2.VideoWriter_fourcc('M','J','P','G'),30,size)
+out = cv2.VideoWriter("../RAW_data/Test_video/out.avi",cv2.VideoWriter_fourcc('M','J','P','G'),30,size)
 
 #loop the image in range 1000,store the image
 for i in range(399):

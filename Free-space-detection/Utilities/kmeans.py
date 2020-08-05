@@ -10,9 +10,6 @@ def imshow(winname,img):
 
 def kemeans_roi(img):
 
-    # copy the image
-    img_copy = img.copy()
-
     # choose the midfreespace manullay
     img1 = img[285:320, 0:1279]
 

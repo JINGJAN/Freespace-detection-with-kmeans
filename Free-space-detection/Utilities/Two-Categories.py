@@ -55,7 +55,7 @@ def classify(path_ofjson,nameofimg,pathofimg):
 pathofjson = "../RAW_data/josn_file_foto/c5001.json"
 
 #path of images
-path = "/Users/nebel/Desktop/Rain-evening-Sunny"
+path = "../RAW_data/images"
 
 #images name
 dir = os.listdir(path)

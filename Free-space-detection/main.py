@@ -15,7 +15,7 @@ frame_width = int(cap.get(cv.CAP_PROP_FRAME_WIDTH))
 frame_height = int(cap.get(cv.CAP_PROP_FRAME_HEIGHT))
 
 # creat video out object
-out = cv.VideoWriter('/Users/nebel/Desktop/out_test.avi',
+out = cv.VideoWriter('../RAW_data/demo/demo_video.avi',
                      cv.VideoWriter_fourcc('M', 'J', 'P', 'G'), 10, (frame_width, frame_height))
 
 # ten frames remove noise
